@@ -8,8 +8,8 @@ font-family:Helvetica;
 font-size:22px;
 }
 
-
-#nav_bar{
+/* Navigation Bar */
+nav{
     position:fixed;
     display:inline-flex;
     align-items: center;
@@ -20,17 +20,11 @@ font-size:22px;
     width:100%;
     background-color: black;
     margin:0px;
+    z-index: 5;
 }
 
 
-#tea_cozy_logo{
-    justify-content: flex-start;
-    height: 50px;
-    left: 10px;
-    margin-left: 10px;
-}
-
-.button{
+nav ul li{
     font-size: 22px;
     color:seashell;
     font-family: helvetica;  
@@ -38,12 +32,21 @@ font-size:22px;
     text-decoration: underline;
 
 }
-#buttons{
+nav ul{
     display:inline-flex;
     justify-content: flex-end;
     width:100%;
 }
 
+
+#logo{
+    justify-content: flex-start;
+    height: 50px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+/* Mission Section */
 .mission{
     background-image: url("img-mission-background.jpg");
     background-repeat: no-repeat;
@@ -64,6 +67,8 @@ font-size:22px;
     height: auto;
     text-align:center;
 }
+
+/*Tea of The Month */
 
 .tea_of_the_month{
 text-align: center;
