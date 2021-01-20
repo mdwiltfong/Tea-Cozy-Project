@@ -1,0 +1,132 @@
+a {
+    color: azure;
+}
+
+body {
+    background-color: black;
+    color: sesashell;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 22px;
+    height: auto;
+    padding: 0
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    top: 0px;
+    left: 0px;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    z-index: 5;
+}
+
+
+nav ul li {
+    font-size: 22px;
+    color: seashell;
+    font-family: helvetica;
+    margin: 10px;
+}
+
+nav ul {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+#logo {
+    justify-content: flex-start;
+    height: 50px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+/* Blog Header */
+header {
+    background-image: url("blog header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    color: white;
+    margin: auto;
+    margin-top: 0%;
+}
+
+
+header div {
+    position: relative;
+    top: 350px;
+    padding: 10px;
+    background-color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+/*Articles Section */
+
+.articles {
+    width: 1200px;
+    margin: 10px auto;
+
+}
+
+article {
+    background-color: azure;
+    padding: 10px;
+}
+/* Fake Image */
+
+article div{
+    height: 200px;
+    width: 800px;
+    background-color: #aaaaaa;
+}
+
+/*info panes*/
+
+.info {
+    width: 1200px;
+    margin: 10px auto;
+
+}
+
+.info div {
+    background-color: blue;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+address {
+    color: seashell;
+    height: 200px;
+    text-align: center;
+}
+
+address a {
+    color: azure;
+}
+
+#copyright {
+    color: seashell;
+    text-align: left;
+    margin-left: 20px;
+}

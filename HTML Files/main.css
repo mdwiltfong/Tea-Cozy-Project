@@ -1,3 +1,7 @@
+a{
+    color:azure;
+}
+
 body{
 background-color: black;
 color:sesashell;
@@ -29,8 +33,6 @@ nav ul li{
     color:seashell;
     font-family: helvetica;  
     margin: 10px;
-    text-decoration: underline;
-
 }
 nav ul{
     display:inline-flex;
@@ -103,7 +105,7 @@ width: 1200px;
     text-align: center;
 }
 
-.location{
+#locations div{
     background-color:black;
     width: 300px;
     height: auto;
@@ -114,10 +116,16 @@ width: 1200px;
     display: inline-block;
 }
 
-footer{
+/* Footer */
+
+address{
     color:seashell;
     height: 200px;
     text-align: center;
+}
+
+address a {
+    color:azure;
 }
 
 #copyright{
