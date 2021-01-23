@@ -50,7 +50,7 @@ nav ul{
 
 /* Mission Section */
 .mission{
-    background-image: url("img-mission-background.jpg");
+    background-image: url("../Image/img-mission-background.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -96,7 +96,7 @@ width: 1200px;
 }
 
 #locations{
-    background-image: url("/Image/img-locations-background.webp");
+    background-image: url("../Image/img-locations-background.webp");
     height: 500px;
     width: 1200px;
     padding-top: 50px;

@@ -53,7 +53,7 @@ nav ul {
 
 /* Blog Header */
 header {
-    background-image: url("blog header.jpg");
+    background-image: url("../Image/Blog Images/blog\ header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -106,12 +106,6 @@ article div{
     background-color: blue;
     padding: 10px;
 }
-
-
-
-
-
-
 
 /* Footer */
 
