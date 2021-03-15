@@ -164,11 +164,6 @@ address a {
     
     }
 
-    li { 
-
-        font-size: 10em;
-    }
-
     nav ul {
         display: inline-flex;
         flex-wrap: wrap;
